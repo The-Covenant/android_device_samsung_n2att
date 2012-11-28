@@ -25,7 +25,7 @@ TARGET_KERNEL_SOURCE := kernel/samsung/i317
 TARGET_KERNEL_CONFIG := t0_04_lte_defconfig
 
 # Custom Toolchain
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-linaro-4.7
 
 # assert
 TARGET_OTA_ASSERT_DEVICE := t04,i317,SGH-I317
