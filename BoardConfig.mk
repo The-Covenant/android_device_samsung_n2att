@@ -21,11 +21,14 @@
 
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/samsung/i317/prebuilt/kernel
-#TARGET_KERNEL_CONFIG := t0_04_lte_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/i317
+TARGET_KERNEL_CONFIG := t0_04_lte_defconfig
+
+# Custom Toolchain
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
 
 # assert
-TARGET_OTA_ASSERT_DEVICE := t03g,n7100,GT-N7100
+TARGET_OTA_ASSERT_DEVICE := t04,i317,SGH-I317
 
 # inherit from the proprietary version
 -include vendor/samsung/i317/BoardConfigVendor.mk
